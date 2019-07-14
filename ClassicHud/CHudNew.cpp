@@ -39,16 +39,16 @@ public:
 			CTxdStore::LoadTxd(v1, ".\\CLASSICHUD\\TXD\\WEAPONS\\WEAPONS_VC.TXD");
 		}
 		if (Style == 2) {
-			CTxdStore::LoadTxd(v1, ".\\CLASSICHUD\\TXD\\WEAPONS\\WEAPONS_STORIES.TXD");
+			CTxdStore::LoadTxd(v1, ".\\CLASSICHUD\\TXD\\WEAPONS\\WEAPONS_LCS.TXD");
 		}
 		if (Style == 3) {
-			CTxdStore::LoadTxd(v1, ".\\CLASSICHUD\\TXD\\WEAPONS\\WEAPONS_STORIES.TXD");
+			CTxdStore::LoadTxd(v1, ".\\CLASSICHUD\\TXD\\WEAPONS\\WEAPONS_VCS.TXD");
 		}
 		if (Style == 4) {
-			CTxdStore::LoadTxd(v1, ".\\CLASSICHUD\\TXD\\WEAPONS\\WEAPONS_CUSTOM.TXD");
+			CTxdStore::LoadTxd(v1, ".\\CLASSICHUD\\TXD\\WEAPONS\\WEAPONS_ADVANCE.TXD");
 		}
         if (Style == 5) {
-            CTxdStore::LoadTxd(v1, ".\\CLASSICHUD\\TXD\\WEAPONS\\WEAPONS_ADVANCE.TXD");
+            CTxdStore::LoadTxd(v1, ".\\CLASSICHUD\\TXD\\WEAPONS\\WEAPONS_CUSTOM.TXD");
         }
 		CTxdStore::AddRef(v1);
 		CTxdStore::PushCurrentTxd();
